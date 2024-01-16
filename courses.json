@@ -25,6 +25,18 @@
                             "Nein",
                             "Nur in Präsenz"
                         ]
+                    },
+                    {
+                        "key": "F-Q-GELERNT",
+                        "name": "Lerninhalt",
+                        "description": "Wie zufrieden sind Sie mit ihrem bisherigen Lernfortschritt?",
+                        "type": "STARS"
+                    },
+                    {
+                        "key": "F-Q-KURZWEILIG",
+                        "name": "Kurzweiligkeit",
+                        "description": "Wie kurzweilig fanden Sie die Theorie-Veranstaltungen? (lings: langweilig, rechts: kurzweilig)",
+                        "type": "SLIDER"
                     }
                 ]
             }
@@ -33,7 +45,7 @@
             {
                 "key": "Q-ROLES",
                 "name": "Rollenverständnis bei Scrum",
-                "description": "Ein Quiz zum Rollenverständnis bei Scrum",
+                "description": "Ein Quiz zum Rollenverständnis und Teamaufbau bei Scrum",
                 "questions": [
                     {
                         "key": "Q-Q-PDRODUCTOWNER",
@@ -51,10 +63,31 @@
                     {
                         "key": "Q-Q-SCRUMMASTER",
                         "name": "Scrum Master",
-                        "description": "Muss der Scrum Master ein Experte in der Domäne des Produkts sein?",
+                        "description": "Muss der Scrum Master ein Experte in der Branche des Produkts sein?",
                         "type": "YES_NO",
                         "hasCorrectAnswers": true,
                         "correctAnswers": [ "false" ]
+                    },
+                    {
+                        "key": "Q-Q-SCRUMMASTER2",
+                        "name": "Programmieren als Scrum Master",
+                        "description": "Kann der Scrum Master bei zu wenig Arbeit auch am Produkt mitarbeiten?",
+                        "type": "YES_NO",
+                        "hasCorrectAnswers": true,
+                        "correctAnswers": [ "false" ]
+                    },
+                    {
+                        "key": "Q-Q-TEAMMEMBERSCOUNT",
+                        "name": "Teamgröße",
+                        "description": "Wie groß sollte ein Scrum Team optimalerweise sein?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "3-6",
+                            "6-9",
+                            "9-12"
+                        ],
+                        "hasCorrectAnswers": true,
+                        "correctAnswers": [ "1" ]
                     }
                 ]
             }
