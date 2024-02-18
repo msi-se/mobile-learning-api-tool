@@ -3,6 +3,7 @@
         "key": "AUME23",
         "name": "AUME 23/24",
         "description": "Agile Vorgehensmodelle und Mobile Kommunikation",
+        "moodleCourseId": "940",
         "feedbackForms": [
             {
                 "name": "Erster Sprint",
@@ -12,7 +13,7 @@
                     {
                         "key": "F-Q-ROLLE",
                         "name": "Rolle",
-                        "description": "Wie gut hat Ihnen ihre Rolle gefallen?",
+                        "description": "Wie gut hat Ihnen ihre Pizza gefallen?",
                         "type": "SLIDER"
                     },
                     {
@@ -96,6 +97,7 @@
     {
         "key": "DIMA23",
         "name": "Dima 23/24",
-        "description": "Diskrete Mathematik"
+        "description": "Diskrete Mathematik",
+        "moodleCourseId": "12321313"
     }
 ]
