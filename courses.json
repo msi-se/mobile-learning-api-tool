@@ -14,7 +14,9 @@
                         "key": "F-Q-ROLLE",
                         "name": "Rolle",
                         "description": "Wie gut hat Ihnen ihre Pizza gefallen?",
-                        "type": "SLIDER"
+                        "type": "SLIDER",
+                        "sliderCaptionLeft": "Gar nicht",
+                        "sliderCaptionRight": "Sehr gut"
                     },
                     {
                         "key": "F-Q-GRUPPE",
@@ -37,7 +39,9 @@
                         "key": "F-Q-KURZWEILIG",
                         "name": "Kurzweiligkeit",
                         "description": "Wie kurzweilig fanden Sie die Theorie-Veranstaltungen? (lings: langweilig, rechts: kurzweilig)",
-                        "type": "SLIDER"
+                        "type": "SLIDER",
+                        "sliderCaptionLeft": "Langweilig",
+                        "sliderCaptionRight": "Kurzweilig"
                     }
                 ]
             }
@@ -98,6 +102,6 @@
         "key": "DIMA23",
         "name": "Dima 23/24",
         "description": "Diskrete Mathematik",
-        "moodleCourseId": "12321313"
+        "moodleCourseId": "343"
     }
 ]
