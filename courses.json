@@ -15,8 +15,8 @@
                         "name": "Rolle",
                         "description": "Wie gut hat Ihnen ihre Pizza gefallen?",
                         "type": "SLIDER",
-                        "sliderCaptionLeft": "Gar nicht",
-                        "sliderCaptionRight": "Sehr gut"
+                        "rangeLow": "Gar nicht",
+                        "rangeHigh": "Sehr gut"
                     },
                     {
                         "key": "F-Q-GRUPPE",
@@ -40,8 +40,8 @@
                         "name": "Kurzweiligkeit",
                         "description": "Wie kurzweilig fanden Sie die Theorie-Veranstaltungen? (lings: langweilig, rechts: kurzweilig)",
                         "type": "SLIDER",
-                        "sliderCaptionLeft": "Langweilig",
-                        "sliderCaptionRight": "Kurzweilig"
+                        "rangeLow": "Langweilig",
+                        "rangeHigh": "Kurzweilig"
                     }
                 ]
             }
