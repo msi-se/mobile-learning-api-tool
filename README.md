@@ -87,7 +87,7 @@ Die Kurse können jetzt durch das Ausführen eines Scripts mit dem Server synchr
 - `name` **(required)**: Name der Frage.
 - `description` **(required)**: Beschreibung der Frage.
 - `type` **(required)**: Typ der Frage.
-  - Optionen für `type`: `SLIDER`, `SINGLE_CHOICE`, `FULLTEXT`, `YES_NO`
+  - Optionen für `type`: `SLIDER`, `SINGLE_CHOICE`, `FULLTEXT`, `YES_NO`, `STARS`
 - `options`: Array aus Strings mit Antwortmöglichkeiten, die für `SINGLE_CHOICE` Fragen zur Verfügung stehen.
 
 
@@ -103,7 +103,7 @@ Die Kurse können jetzt durch das Ausführen eines Scripts mit dem Server synchr
 - `name` **(required)**: Name der Frage.
 - `description` **(required)**: Beschreibung der Frage.
 - `type` **(required)**: Typ der Frage
-  - Optionen für `type`: `SINGLE_CHOICE`, `YES_NO`, `MULTIPLE_CHOICE`, `WORD_CLOUD`, `FULLTEXT`
+  - Optionen für `type`: `SINGLE_CHOICE`, `YES_NO`, `MULTIPLE_CHOICE`, `FULLTEXT`
 - `key` **(required)**: Eindeutiger Schlüssel für die Frage.
 - `options`: Array aus Strings mit Antwortmöglichkeiten, die für `SINGLE_CHOICE` Fragen zur Verfügung stehen. 
 - `hasCorrectAnswers` **(required)**: Boolean, der angibt, ob die Frage eine richtige Antwort hat.

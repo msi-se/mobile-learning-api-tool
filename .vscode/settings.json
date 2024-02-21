@@ -18,6 +18,9 @@
                         "key": {
                             "type": "string"
                         },
+                        "moodleCourseId": {
+                            "type": "string"
+                        },
                         "feedbackForms": {
                             "type": "array",
                             "items": {

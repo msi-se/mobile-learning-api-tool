@@ -6,42 +6,41 @@
         "moodleCourseId": "940",
         "feedbackForms": [
             {
-                "name": "Erster Sprint",
+                "name": "Feedback zum ersten Sprint",
                 "description": "Hier wollen wir Ihr Feedback zum ersten Sprint einholen",
                 "key": "F-ERSTERSPRINT",
                 "questions": [
                     {
-                        "key": "F-Q-ROLLE",
-                        "name": "Rolle",
-                        "description": "Wie gut hat Ihnen ihre Pizza gefallen?",
+                        "key": "F-Q-INHALTE",
+                        "name": "Inhalte",
+                        "description": "Wie zufrieden sind Sie mit den Inhalten der Vorlesung bisher?",
                         "type": "SLIDER",
-                        "rangeLow": "Gar nicht",
-                        "rangeHigh": "Sehr gut"
+                        "rangeLow": "Nicht zufrieden",
+                        "rangeHigh": "Sehr zufrieden"
                     },
                     {
-                        "key": "F-Q-GRUPPE",
-                        "name": "Gruppendynamik",
-                        "description": "Haben Sie sich in der Gruppe wohl gefühlt?",
-                        "type": "SINGLE_CHOICE",
-                        "options": [
-                            "Ja",
-                            "Nein",
-                            "Nur in Präsenz"
-                        ]
+                        "key": "F-Q-INHALTE-2",
+                        "name": "Inhalte (gefallen)",
+                        "description": "Welche Inhalte haben Ihnen besonders gut gefallen?",
+                        "type": "FULLTEXT"
                     },
                     {
-                        "key": "F-Q-GELERNT",
-                        "name": "Lerninhalt",
-                        "description": "Wie zufrieden sind Sie mit ihrem bisherigen Lernfortschritt?",
+                        "key": "F-Q-INHALTE-3",
+                        "name": "Inhalte (gefehlt)",
+                        "description": "Welche Inhalte haben Ihnen gefehlt?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-LERNFORTSCHRITT",
+                        "name": "Lernfortschritt",
+                        "description": "Wie schätzen Sie Ihren Lernfortschritt ein im ersten Sprint ein?",
                         "type": "STARS"
                     },
                     {
-                        "key": "F-Q-KURZWEILIG",
-                        "name": "Kurzweiligkeit",
-                        "description": "Wie kurzweilig fanden Sie die Theorie-Veranstaltungen? (lings: langweilig, rechts: kurzweilig)",
-                        "type": "SLIDER",
-                        "rangeLow": "Langweilig",
-                        "rangeHigh": "Kurzweilig"
+                        "key": "F-Q-ORGANISATION",
+                        "name": "Organisation",
+                        "description": "Sind Sie mit der Organisation der Vorlesung zufrieden?",
+                        "type": "YES_NO"
                     }
                 ]
             }
@@ -97,11 +96,5 @@
                 ]
             }
         ]
-    },
-    {
-        "key": "DIMA23",
-        "name": "Dima 23/24",
-        "description": "Diskrete Mathematik",
-        "moodleCourseId": "343"
     }
 ]
