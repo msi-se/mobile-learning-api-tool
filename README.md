@@ -19,7 +19,7 @@ Das Ausführen des Skripts erfordert eine installierte Javascript Laufzeitumgebu
 
 2. Erstellen Sie eine `.env` Datei im Stammverzeichnis des Projekts und fügen Sie die folgenden Umgebungsvariablen hinzu (siehe .env.example):
 ```env
-BACKEND_URL=<URL_des_Backends (z. B. http://localhost:8080)>
+BACKEND_URL=<URL_des_Backends (z. B. http://localhost:8080 oder http://admin:pass@loco.in.htwg-konstanz.de)>
 HTWG_USERNAME=<HTWG_Benutzername>
 HTWG_PASSWORD=<HTWG_Passwort>
 ```
@@ -31,9 +31,15 @@ Nun können die gewünschten Inhalte (Kurse, Feedbacks, Quizzes) in der `courses
 Modifizieren Sie hierzu die Beispieldaten in der `courses.json` Datei.
 Wenn Sie VSCode verwenden, wird ihnen der Editor beim Bearbeiten der Datei mit IntelliSense helfen.
 
-> :warning: **Wichtig:**
+> ⚠ **Wichtig:**
 > Die `key`-Felder der Kurse, Feedbacks, Quizzes und Questions müssen eindeutig sein!
 > Wenn Sie ein Objekt ändern möchten, dürfen Sie den `key` nicht ändern. Durch den Key erkennt der Server, dass es sich um ein bestehendes Objekt handelt, das geändert werden soll.
+
+> ℹ **Hinweis Moodle:**
+> Wenn Sie einen Kurs erstellen müssen Sie ihm einen Moodle-Kurs zuweisen, um Studenten darin einzuschreiben.
+> Dafür brauchen Sie die ID des Moodle-Kurses. Diese finden Sie in der URL des Moodle-Kurses
+> (z. B. `https://moodle.htwg-konstanz.de/moodle/course/view.php?id=940` → Die ID ist `940`)
+> Diese ID wird als `moodleCourseId` in der `courses.json` Datei benötigt (`... "moodleCourseId": "940" ...`)
 
 #### Grobe Struktur der `courses.json` Datei
  
@@ -64,6 +70,7 @@ Die Kurse können jetzt durch das Ausführen eines Scripts mit dem Server synchr
 - `key` **(required)**: Eindeutiger Schlüssel für den Kurs. 
 - `name` **(required)**: Name des Kurses.
 - `description` **(required)**: Beschreibung des Kurses.
+- `moodleCourseId` **(required)**: ID des Moodle-Kurses, in dem der Kurs erstellt werden soll.
 - `feedbackForms`: Array aus Feedback-Forumular Objekten, die mit dem Kurs verbunden sind.
 - `quizForms`: Array aus Quiz-Formular Objekten, die mit dem Kurs verbunden sind.
 
