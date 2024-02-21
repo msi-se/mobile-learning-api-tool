@@ -64,7 +64,13 @@
                                                     "items": {
                                                         "type": "string"
                                                     }
-                                                }
+                                                },
+                                                "rangeLow": {
+                                                    "type": "string"
+                                                },
+                                                "rangeHigh": {
+                                                    "type": "string"
+                                                },
                                             },
                                             "required": [
                                                 "key",

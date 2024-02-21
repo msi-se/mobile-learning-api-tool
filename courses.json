@@ -6,9 +6,9 @@
         "moodleCourseId": "940",
         "feedbackForms": [
             {
+                "key": "F-ERSTERSPRINT",
                 "name": "Feedback zum ersten Sprint",
                 "description": "Hier wollen wir Ihr Feedback zum ersten Sprint einholen",
-                "key": "F-ERSTERSPRINT",
                 "questions": [
                     {
                         "key": "F-Q-INHALTE",
@@ -40,7 +40,22 @@
                         "key": "F-Q-ORGANISATION",
                         "name": "Organisation",
                         "description": "Sind Sie mit der Organisation der Vorlesung zufrieden?",
-                        "type": "YES_NO"
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+                        ]                    
+                    },
+                    {
+                        "key": "F-Q-Rolle",
+                        "name": "Scrum-Rolle",
+                        "description": "Haben Sie sich wohlgefühlt in Ihrer Scrum-Rolle und möchten Sie diese Rolle beibehalten?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein",
+                            "Durchwachsen"
+                        ]
                     }
                 ]
             }
