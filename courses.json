@@ -49,7 +49,7 @@
                     {
                         "key": "F-Q-Rolle",
                         "name": "Scrum-Rolle",
-                        "description": "Haben Sie sich wohlgefühlt in Ihrer Scrum-Rolle und möchten Sie diese Rolle beibehalten?",
+                        "description": "Haben Sie sich wohlgefühlt in Ihrer Scrum-Rolle?",
                         "type": "SINGLE_CHOICE",
                         "options": [
                             "Ja",
@@ -85,7 +85,7 @@
                         "description": "Muss der Scrum Master ein Experte in der Branche des Produkts sein?",
                         "type": "YES_NO",
                         "hasCorrectAnswers": true,
-                        "correctAnswers": [ "false" ]
+                        "correctAnswers": [ "no" ]
                     },
                     {
                         "key": "Q-Q-SCRUMMASTER2",
@@ -93,7 +93,7 @@
                         "description": "Kann der Scrum Master bei zu wenig Arbeit auch am Produkt mitarbeiten?",
                         "type": "YES_NO",
                         "hasCorrectAnswers": true,
-                        "correctAnswers": [ "false" ]
+                        "correctAnswers": [ "no" ]
                     },
                     {
                         "key": "Q-Q-TEAMMEMBERSCOUNT",
