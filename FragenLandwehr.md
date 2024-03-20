@@ -2,23 +2,23 @@ Hallo Frau Dr. Landwehr,
 
 ich melde mich im Namen des Feedback/Quiz App Teams.
 Wie vereinbart wollten wir mit Ihnen ja ein paar sinvolle Feedbackfragen abstimmen, die die Dozierenden für Feedbacks in Ihren Vorlesungen verwenden können.
-Die Idee wäre, dass die Fragen am Ende einer Vorlesung gestellt werden, um Feedbacks zu der vergangenen Veranstaltung zu bekommen. Möglich wären auch Fragen, die in größeren Abständen gestellt werden nicht nur als Feedback zu einzelen Vorlesung sondern auch zum Gesamtbild.
+Die Idee wäre, dass die Fragen am Ende einer Vorlesung gestellt werden, um Feedbacks zu der vergangenen Veranstaltung zu bekommen. Möglich wären auch Fragen, die in größeren Abständen gestellt werden nicht nur als Feedback zu einzelen Vorlesung, sondern auch zum Gesamtbild.
 
 Wir haben uns bereits einige Fragen überlegt (siehe unten). Es handelt sich dabei eher um eine Sammlung an Fragen als um eine feste Feedbackreihenfolge. Halten Sie diese für sinnvoll? 
-Wenn Sie Anmerkungen dazu haben oder weitere Ideen, können Sie mir diese gerne zu kommen lassen.
+Wenn Sie Anmerkungen dazu haben oder weitere Ideen, können Sie mir diese gerne zukommen lassen.
 
 Viele Grüße
 Tobias Tögel
 
 Aktuell mögliche Fragentypen: Slider, Sterne, Single choice, Volltext, ja/nein
 
-**(Fragen Bereits auf Antwort angepasst)**
+**(Fragen bereits auf Antwort angepasst)**
 
 # Feedback nach einzelner Vorlesung:
 
 ## Vorlesungsinhalte
-- Behandelt die heutige Vorlesung aus Ihrer Sicht alle relevanten 
-thematischen Aspekte? (Frage nach einzelner Veranstaltung) (Slider: voll 
+
+- Behandelt die heutige Vorlesung aus Ihrer Sicht alle relevanten thematischen Aspekte? (Frage nach einzelner Veranstaltung) (Slider: voll 
 und ganz/überhaupt nicht)
 
 -> Rückfrage Volltext bei "überhaupt nicht": welche Themen haben aus 
@@ -26,12 +26,10 @@ Ihrer Sicht gefehlt?
 
 
 - Waren die Inhalte der heutigen 
-Veranstaltung nachvollziehbar aufbereitet? (Slider: voll und 
-ganz/überhaupt nicht)
+Veranstaltung nachvollziehbar aufbereitet? (Slider: voll und ganz/überhaupt nicht)
 
 ## Vorlesungsgeschwindigkeit
-Wie empfanden Sie die Geschwindigkeit der heutigen Vorlesung? (Slider)
-Beschriftung (links/rechts): zu langsam/zu schnell
+Wie empfanden Sie die Geschwindigkeit der heutigen Vorlesung? (Slider) Beschriftung (links/rechts): zu langsam/zu schnell
 
 ## Inhalte (gefallen)
 Welche Inhalte haben Ihnen besonders gut gefallen? (Volltext)(vllt single choice)
@@ -42,10 +40,7 @@ welche 3 Learnings nehmen Sie aus der heutigen Vorlesung mit? (Volltext)
 ## Inhalte (nicht verstanden)
 Gibt es Inhalte, die nochmal genauer erläutert werden sollten? (Volltext)
 
-(Das sagt auch, dass ich etwas nicht verstanden habe auf sehr 
-neutralem Niveau, außer die Veranstaltung gibt nur einen kurzen 
-Überblick über ein riesiges Themenspektrum und man möchte gern mehr zu 
-einem Thema erfahren.)
+(Das sagt auch, dass ich etwas nicht verstanden habe auf sehr neutralem Niveau, außer die Veranstaltung gibt nur einen kurzen Überblick über ein riesiges Themenspektrum und man möchte gerne mehr zu einem Thema erfahren.)
 
 ## Offene Fragen zu Inhalten
 Gibt es Ihrerseits weitere Fragen? (Volltext)
@@ -85,11 +80,8 @@ Slider Beschriftung (links/rechts): Wenig Verständnis/Volles Verständnis
 
 -> vielleicht hier Lernkurve?
 
-Mein Problem mit der Frage geht etwas in die Richtung, dass sich das 
-Verständnis auch nicht wirklich weiter entwickelt haben könnte, wenn ich 
-vorher schon gut in dem Thema war. Das ist aktuell hier nicht 
-abgebildet. **Vielleicht eine Einschätzung der eigenen Kenntnisse vor und 
-nach dem Kurs als Referenz?** Dann wäre dies besser abgebildet (evtl in Verbindung mit Quiz ?).
+Mein Problem mit der Frage geht etwas in die Richtung, dass sich das Verständnis auch nicht wirklich weiter entwickelt haben könnte, wenn ich vorher schon gut in dem Thema war. Das ist aktuell hier nicht 
+abgebildet. **Vielleicht eine Einschätzung der eigenen Kenntnisse vor und nach dem Kurs als Referenz?** Dann wäre dies besser abgebildet (evtl in Verbindung mit Quiz ?).
 
 ## Antwort:
 

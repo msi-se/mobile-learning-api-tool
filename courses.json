@@ -111,5 +111,159 @@
                 ]
             }
         ]
+    },
+    {
+        "key": "TEST24",
+        "name": "Test Kurs SS24",
+        "description": "Ein Testkurs für das Sommersemester 2024",
+        "moodleCourseId": "670",
+        "feedbackForms": [
+            {
+                "key": "F-NACH-VORLESUNG",
+                "name": "Feedback nach einzelner Vorlesung",
+                "description": "Hier wollen wir Ihr Feedback nach einer Vorlesung einholen",
+                "questions": [
+                    {
+                        "key": "F-Q-INHALTE",
+                        "name": "Vorlesungsinhalte",
+                        "description": "Behandelt die heutige Vorlesung aus Ihrer Sicht alle relevanten thematischen Aspekte?",
+                        "type": "SLIDER",
+                        "rangeLow": "überhaupt nicht",
+                        "rangeHigh": "voll und ganz"
+                    },
+                    {
+                        "key": "F-Q-INHALTE-2",
+                        "name": "Rückfrage",
+                        "description": "Wenn überhaupt nicht: Welche Themen haben aus Ihrer Sicht gefehlt?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-NACHVOLLZIEHBARKEIT",
+                        "name": "Nachvollziehbarkeit",
+                        "description": "Waren die Inhalte der heutigen Veranstaltung nachvollziehbar aufbereitet?",
+                        "type": "SLIDER",
+                        "rangeLow": "überhaupt nicht",
+                        "rangeHigh": "voll und ganz"
+                    },
+                    {
+                        "key": "F-Q-GESCHWINDIGKEIT",
+                        "name": "Vorlesungsgeschwindigkeit",
+                        "description": "Wie empfanden Sie die Geschwindigkeit der heutigen Vorlesung?",
+                        "type": "SLIDER",
+                        "rangeLow": "zu langsam",
+                        "rangeHigh": "zu schnell"
+                    },
+                    {
+                        "key": "F-Q-INHALTE-GEFALLEN",
+                        "name": "Inhalte (gefallen)",
+                        "description": "Welche Inhalte haben Ihnen besonders gut gefallen?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Inhalt 1",
+                            "Inhalt 2",
+                            "Inhalt 3"
+                        ]
+                    },
+                    {
+                        "key": "F-Q-LEARNINGS",
+                        "name": "Learnings der Vorlesung",
+                        "description": "Welche 3 Learnings nehmen Sie aus der heutigen Vorlesung mit?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-INHALTE-NICHT-VERSTANDEN",
+                        "name": "Inhalte (nicht verstanden)",
+                        "description": "Gibt es Inhalte, die nochmal genauer erläutert werden sollten?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-OFFENE-FRAGEN",
+                        "name": "Offene Fragen zu Inhalten",
+                        "description": "Gibt es Ihrerseits weitere Fragen?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-SONSTIGES",
+                        "name": "Sonstige Anmerkungen",
+                        "description": "Gibt es sonstige Anmerkungen?",
+                        "type": "FULLTEXT"
+                    }
+                ]
+            },
+            {
+                "key": "F-GOESSERER-ABSTAND",
+                "name": "Feedback nach mehreren Vorlesungen",
+                "description": "Feedback nach mehreren Vorlesungen (mit größerem zeitlichen Abstand)",
+                "questions": [
+                    {
+                        "key": "F-Q-VERANSTALTUNGSTHEMA",
+                        "name": "Veranstaltungsthema",
+                        "description": "Ist für Sie das Veranstaltungsthema gut in den einzelnen Vorlesungen umgesetzt?",
+                        "type": "SLIDER",
+                        "rangeLow": "überhaupt nicht",
+                        "rangeHigh": "voll und ganz"
+                    },
+                    {
+                        "key": "F-Q-VERBINDUNG-ZUKUNFT",
+                        "name": "Verbindung zu professioneller Zukunft",
+                        "description": "Verstehen Sie die Verbindung der Vorlesungsinhalte zu Ihrer möglichen professionellen Zukunft?",
+                        "type": "YES_NO"
+                    },
+                    {
+                        "key": "F-Q-INHALTE-NICHT-VERSTANDEN",
+                        "name": "Inhalte (nicht verstanden)",
+                        "description": "Gibt es Inhalte, die nochmal genauer erläutert werden sollten?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-ORGANISATION",
+                        "name": "Organisation",
+                        "description": "Sind Sie mit der Organisation der Vorlesung zufrieden? (Strukur, Kommunikation, Leistungserbringung)",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+                        ]
+                    },
+                    {
+                        "key": "F-Q-ERNEUT-BESUCHEN",
+                        "name": "Vorlesung erneut besuchen?",
+                        "description": "Wenn Sie die Wahl hätten, würden sie den Kurs erneut besuchen?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+                        ]
+                    },
+                    {
+                        "key": "F-Q-ERNEUT-BESUCHEN-2",
+                        "name": "Warum?",
+                        "description": "Warum würden Sie den Kurs erneut besuchen / nicht erneut besuchen?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "F-Q-THEMENWUENSCHE",
+                        "name": "Themenwünsche",
+                        "description": "Gibt es konkrete Inhalte, die noch in die Vorlesung aufgenommen werden sollten?",
+                        "type": "FULLTEXT"
+                    }
+                ]
+            },
+            {
+                "key": "F-SEMESTERBEGINN",
+                "name": "Feedback am Semesterbeginn",
+                "description": "Hier wollen wir Ihr Feedback am Semesterbeginn einholen",
+                "questions": [
+                    {
+                        "key": "F-Q-INHALTE-VERSTAENDNIS",
+                        "name": "Inhalte (Verständnis)",
+                        "description": "Wie Schätzen Sie ihre Kentnisse zu den Vorlesungsthemen ein?",
+                        "type": "SLIDER",
+                        "rangeLow": "Wenig Verständnis",
+                        "rangeHigh": "Volles Verständnis"
+                    }
+                ]
+            }
+        ]
     }
 ]
