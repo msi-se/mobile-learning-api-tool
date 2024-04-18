@@ -3,7 +3,7 @@
         "key": "AUME23",
         "name": "AUME 23/24",
         "description": "Agile Vorgehensmodelle und Mobile Kommunikation",
-        "moodleCourseId": "940",
+        "moodleCourseId": "670",
         "feedbackForms": [
             {
                 "key": "F-ERSTERSPRINT",
@@ -265,5 +265,11 @@
                 ]
             }
         ]
+    },
+    {
+        "key": "CON24",
+        "name": "Concurrency SS24",
+        "description": "Concurrency Kurs für das Sommersemester 2024",
+        "moodleCourseId": "1710"
     }
 ]
