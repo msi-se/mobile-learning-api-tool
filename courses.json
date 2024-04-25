@@ -271,5 +271,124 @@
         "name": "Concurrency SS24",
         "description": "Concurrency Kurs für das Sommersemester 2024",
         "moodleCourseId": "1710"
+    },
+    {
+        "key": "SWENSTUDIE",
+        "name": "HTWG Connect",
+        "description": "Kurs für Feedback im SWEN Kurs",
+        "moodleCourseId": "670",
+        "feedbackForms": [
+            {
+                "key": "SWEN-Termin1",
+                "name": "Feedback 02.05.2024",
+                "description": "Feedback zum Einstatz der HTWG Connect App am  02.05.",
+                "questions": [
+                    {
+                        "key": "SWEN-Termin1-Gesamteindruck",
+                        "name": "Gesamteindruck",
+                        "description": "Wie würdest du HTWG Connect allgemein bewerten",
+                        "type": "STARS"
+                    },
+                    {
+                        "key": "SWEN-Termin1-Navigation",
+                        "name": "Navigation",
+                        "description": "Hat das Navigieren durch die App bei dir wie erwartet funktioniert?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-Feedback",
+                        "name": "Feedback",
+                        "description": "Hat die Feedbackfunktion wie erwartet funktioniert?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-Quiz",
+                        "name": "Quiz",
+                        "description": "Hat die Quizfunktion wie erwartet funktioniert?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-BUGS",
+                        "name": "Bugs",
+                        "description": "Gab es Probleme mit der App (z. B. Abstürze, Verzögerungen, Fehlermeldungen)?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "SWEN-Termin1-UI",
+                        "name": "UI/UX",
+                        "description": "Wie würdest du die Benutzeroberfläche und das Design der App bewerten?",
+                        "type": "SLIDER",
+                        "rangeLow": "Wenig Ansprechen",
+                        "rangeHigh": "Sehr Ansprechend"
+                    },
+                    {
+                        "key": "SWEN-Termin1-Lernen",
+                        "name": "App zum lernen",
+                        "description": "Bringt die Quiz-Funktion etwas für das Verständnis des Stoffs?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein",
+                            "Ich lerne lieber anders"
+
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-Alltag",
+                        "name": "HTWG Connect im Alltag",
+                        "description": "Würdest du die App auch außerhalb der Vorlesung für den Mensa-Plan oder ähnliches nutzen?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "Ja",
+                            "Nein"
+
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-LSF",
+                        "name": "LSF",
+                        "description": "Wäre eine LSF-Stundenplan-Integration für dich wichtig (noch nicht umgesetzt)?",
+                        "type": "SLIDER",
+                        "rangeLow": "Nicht wichtig",
+                        "rangeHigh": "Wichtig"
+                    },
+                    {
+                        "key": "SWEN-Termin1-Menti",
+                        "name": "Menti",
+                        "description": "Mentimeter darf offiziell nicht an der Hochschule genutzt werden (Datenschutz). Denkst du, dass die App eine gute Alternative ist?",
+                        "type": "SLIDER",
+                        "rangeLow": "Nein, bitte weiterhin Mentimeter",
+                        "rangeHigh": "Ja, ich finde die App mindestens genauso gut"
+                    },
+                    {
+                        "key": "SWEN-Termin1-FEATURES",
+                        "name": "Features",
+                        "description": "Welche weiteren Funktionen würdest du dir wünschen (Offline-Quizzes zur Klausurvorbereitung, Kalender/Terminübersicht, soziale Funktionen, ...)?",
+                        "type": "FULLTEXT"
+                    },
+                    {
+                        "key": "SWEN-Termin1-SONSTIGES",
+                        "name": "Sonstige Anmerkungen",
+                        "description": "Gibt es sonstige Anmerkungen?",
+                        "type": "FULLTEXT"
+                    }
+                ]
+            }
+        ]
     }
 ]
