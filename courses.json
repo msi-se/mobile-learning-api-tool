@@ -290,20 +290,15 @@
                         "type": "STARS"
                     },
                     {
+                        "key": "SWEN-Termin1-Gesamteindruck2",
+                        "name": "Gesamteindruck",
+                        "description": "Was stört dich?",
+                        "type": "FULLTEXT"
+                    },
+                    {
                         "key": "SWEN-Termin1-Navigation",
                         "name": "Navigation",
                         "description": "Hat das Navigieren durch die App bei dir wie erwartet funktioniert?",
-                        "type": "SINGLE_CHOICE",
-                        "options": [
-                            "Ja",
-                            "Nein"
-
-                        ]  
-                    },
-                    {
-                        "key": "SWEN-Termin1-Feedback",
-                        "name": "Feedback",
-                        "description": "Hat die Feedbackfunktion wie erwartet funktioniert?",
                         "type": "SINGLE_CHOICE",
                         "options": [
                             "Ja",
@@ -346,6 +341,16 @@
                             "Nein",
                             "Ich lerne lieber anders"
 
+                        ]  
+                    },
+                    {
+                        "key": "SWEN-Termin1-Feedback",
+                        "name": "Feedback",
+                        "description": "Siehst du regelmäßiges Feedback als sinnvoll an oder würdest du lieber nur am Ende des Semesters Feedback geben?",
+                        "type": "SINGLE_CHOICE",
+                        "options": [
+                            "regelmäßig",
+                            "Selten"
                         ]  
                     },
                     {
